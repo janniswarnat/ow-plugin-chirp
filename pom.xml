@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.openinc</groupId>
-  <artifactId>TTNV3</artifactId>
+  <artifactId>ChirpV3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>open-ttn-connector</name>
-  <description>Connect TTN to the open.WARE Platform</description>
+  <name>open-chirp-connector</name>
+  <description>Connect ChirpStack to the open.WARE Platform</description>
    <build>
     <plugins>
       <plugin>
@@ -35,6 +35,14 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
       </plugin>
     </plugins>
   </build>

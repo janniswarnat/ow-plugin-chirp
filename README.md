@@ -1,1 +1,1 @@
-# ow-plugin-ttn
+# ow-plugin-chirp
